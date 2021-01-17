@@ -1,0 +1,23 @@
+.m1_bg_1{
+    animation-name: opac_changer;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes opac_changer{
+    from{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
