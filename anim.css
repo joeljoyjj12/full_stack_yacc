@@ -1,0 +1,170 @@
+#l_1{
+    animation: loading_anim 1s 1;
+}
+
+#l_2{
+    animation: loading_anim 1.1s 1;
+}
+
+#l_3{
+    animation: loading_anim 1.2s 1;
+}
+
+#l_4{
+    animation: loading_anim 1.3s 1;
+}
+
+#l_5{
+    animation: loading_anim 1.4s 1;
+}
+
+#l_6{
+    animation: loading_anim 1.5s 1;
+}
+
+#l_7{
+    animation: loading_anim 1.6s 1;
+}
+
+#l_8{
+    animation: loading_anim 1.7s 1;
+}
+
+#l_9{
+    animation: loading_anim 1.8s 1;
+}
+
+#l_10{
+    animation: loading_anim 1.9s 1;
+}
+#l_11{
+    animation: loading_anim 2s 1;
+}
+
+#l_12{
+    animation: loading_anim 2.1s 1;
+}
+
+#l_13{
+    animation: loading_anim 2.2s 1;
+}
+
+#l_14{
+    animation: loading_anim 2.3s 1;
+}
+
+#l_15{
+    animation: loading_anim 2.4s 1;
+}
+
+#l_16{
+    animation: loading_anim 2.5s 1;
+}
+
+#l_17{
+    animation: loading_anim 2.6s 1;
+}
+
+#l_18{
+    animation: loading_anim 2.7s 1;
+}
+
+#l_19{
+    animation: loading_anim 2.8s 1;
+}
+
+#l_20{
+    animation: loading_anim 2.9s 1;
+}
+
+#l_21{
+    animation: loading_anim 3s 1;
+}
+
+#l_22{
+    animation: loading_anim 3.1s 1;
+}
+
+#l_23{
+    animation: loading_anim 3.2s 1;
+}
+
+#l_24{
+    animation: loading_anim 3.3s 1;
+}
+
+#l_24{
+    animation: loading_anim 3.4s 1;
+}
+
+#l_25{
+    animation: loading_anim 3.5s 1;
+}
+
+#l_26{
+    animation: loading_anim 3.6s 1;
+}
+
+#l_27{
+    animation: loading_anim 3.7s 1;
+}
+
+#l_28{
+    animation: loading_anim 3.8s 1;
+}
+
+#l_29{
+    animation: loading_anim 3.9s 1;
+}
+
+#l_30{
+    animation: loading_anim 4s 1;
+}
+
+#l_31{
+    animation: loading_anim 4.1s 1;
+}
+
+#l_32{
+    animation: loading_anim 4.2s 1;
+}
+
+#l_33{
+    animation: loading_anim 4.3s 1;
+}
+
+#l_34{
+    animation: loading_anim 4.4s 1;
+}
+
+#l_35{
+    animation-delay: 3.5s;
+    animation-name: blinking;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+@keyframes loading_anim{
+    from{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes blinking{
+    from{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
